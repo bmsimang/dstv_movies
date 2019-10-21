@@ -1,0 +1,53 @@
+.app {
+  text-align: center;
+}
+
+.poster {
+  min-width: 100px;
+  max-width: 210px;
+  display: inline-block;
+  margin: 10px;
+  position: relative;
+  padding: 0;
+}
+
+.poster img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.poster .read-more {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: 10px;
+  border-radius: 6px;
+  opacity: 0;
+  background: rgba(58, 62, 107, 0.8);
+}
+
+.poster .read-more:hover {
+  opacity: 1;
+}
+
+.poster .read-more button {
+  color: white;
+  padding: 15px;
+  background: none;
+  border: 2px solid white;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.poster .read-more button:hover {
+  color: rgb(44, 47, 77);
+  font-weight: 500;
+  background: rgba(255, 255, 255, 0.589);
+}
